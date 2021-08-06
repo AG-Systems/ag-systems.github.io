@@ -26,7 +26,7 @@ class Education extends React.Component {
             "sub_title": "Bachelor of Science - BS, Robotics Engineering",
             "location": "Santa Cruz, CA",
             "date_started": "Oct 2020",
-            "date_ended": "N/A",
+            "date_ended": "Present",
             "img": require("../images/logos/ucsc_engineering.png"),
             "description": [
               "Major Course work: ",

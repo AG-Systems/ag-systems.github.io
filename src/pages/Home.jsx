@@ -21,7 +21,6 @@ class Home extends React.Component {
     super(props);
     $('html, body').animate({ scrollTop: 0 }, 'fast');
 
-
   }
 
 
@@ -32,15 +31,19 @@ getExperience() {
           "sub_title": "Barrick Gold Corporation",
           "location": "Elko, NV",
           "date_started": "Jun 2021",
-          "date_ended": "Present",
-          "total_length": "0",
+          "date_ended": "Sept 2021",
+          "total_length": "3 Months",
           "img": require("../images/logos/barrick.jfif"),
           "description": [
-            "• Reliability Engineering.",
-            "• Interning at one of the world's largest gold mining company.",
+            "• Specific role: Reliability Engineering.",
+            "• Used SolidWorks CAD, Rocky DEM, and Ansys Fluent CFD to perform simulations.",
+            "• Simulations involved simulating particle flow to real world scenarios for analysis.",
+            "• Designed, modified, and tested models in SolidWorks for improving reliability.",
+            "• Performed FEA for better understanding.",
+            "(still in work in progress)",
             "More infomation: ",
             "• Nevada Gold Mines is a joint venture between Barrick Gold Corporation (61.5%) and Newmont Goldcorp Corporation (38.5%).",
-            "• Worked at the Carlin @ gold quarry mine site.",
+            "• Worked at the Carlin @ Gold Quarry mine site.",
             "• MSHA certifed."
 
           ],
@@ -366,7 +369,7 @@ getExperience() {
     return (
       <div style={{ width: "100%", margin: "0 auto" }}>
               <div style={{width: '100%', height: "35px"}}></div>
-                <div className="card"  style={{width: '45%', minWidth: "300px", margin: "0 auto"}} id="card-content">
+                <div className="card"  style={{width: '45%', minWidth: "350px", margin: "0 auto"}} id="card-content">
 
                   <div className="card-body">
 
