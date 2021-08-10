@@ -29,21 +29,21 @@ getExperience() {
         {
           "title": "Mechanical Engineer Intern",
           "sub_title": "Barrick Gold Corporation",
-          "location": "Elko, NV",
+          "location": "Elko, Nevada",
           "date_started": "Jun 2021",
-          "date_ended": "Sept 2021",
+          "date_ended": "Sep 2021",
           "total_length": "3 Months",
           "img": require("../images/logos/barrick.jfif"),
           "description": [
             "• Specific role: Reliability Engineering.",
-            "• Used SolidWorks CAD, Rocky DEM, and Ansys Fluent CFD to perform simulations.",
-            "• Simulations involved simulating particle flow to real world scenarios for analysis.",
-            "• Designed, modified, and tested models in SolidWorks for improving reliability.",
-            "• Performed FEA for better understanding.",
-            "(still in work in progress)",
+            "• Created simulations with SolidWorks CAD, Rocky DEM, Python, and Ansys Fluent CFD.",
+            "• Simulated particle flow to real world scenarios for analysis to improve reliability.",
+            "• Designed, modified, and tested models in SolidWorks with GD&T and basic FEA.",
+            "",
             "More infomation: ",
             "• Nevada Gold Mines is a joint venture between Barrick Gold Corporation (61.5%) and Newmont Goldcorp Corporation (38.5%).",
-            "• Worked at the Carlin @ Gold Quarry mine site.",
+            "• Worked at the Carlin @ Gold Quarry mine.",
+            "• Barrick & Newmont are the world's largest gold mining companies.",
             "• MSHA certifed."
 
           ],
@@ -87,7 +87,7 @@ getExperience() {
           "sub_title": "The Lambda Group",
           "location": "Remote",
           "date_started": "Feb 2021",
-          "date_ended": "June 2021",
+          "date_ended": "Jun 2021",
           "total_length": "5 Months",
           "img": require("../images/logos/lambda.jfif"),
           "description": [
@@ -104,7 +104,7 @@ getExperience() {
         {
           "title": "Frontend Engineer Intern",
           "sub_title": "Walmart eCommerce",
-          "location": "Sunnyvale, CA",
+          "location": "Sunnyvale, California",
           "date_started": "Jun 2020",
           "date_ended": "Aug 2020",
           "total_length": "3 Months",
@@ -114,6 +114,7 @@ getExperience() {
             "• Built an UI component sharing library for other teams to use with JavaScript (with React).",
             "• UI component sharing library is highly optimized for speed, and bundle size (30%+ more efficient).",
             "• Tech stack used: React.js, React-native, Redux (state management), typescript, ES6 JavaScript.",
+            "",
             "More infomation: ",
             "• Ninety percent of Americans live within 10 miles of a Walmart store.",
             "• I technically worked for both, Walmart eCommerce and Walmart labs (now is called Global Tech)."
@@ -142,7 +143,7 @@ getExperience() {
         {
           "title": "Physics Teacher Assistant",
           "sub_title": "Foothill College",
-          "location": "Los Altos Hills, CA",
+          "location": "Los Altos Hills, California",
           "date_started": "Jun 2020",
           "date_ended": "Aug 2020",
           "total_length": "3 Months",
@@ -162,7 +163,7 @@ getExperience() {
         {
           "title": "Software Developer",
           "sub_title": "QuesGen Systems",
-          "location": "Burlingame, CA",
+          "location": "Burlingame, California",
           "date_started": "Oct 2019",
           "date_ended": "Jun 2020",
           "total_length": "9 Months",
@@ -184,7 +185,7 @@ getExperience() {
         {
           "title": "Mathematics Tutor",
           "sub_title": "Foothill College",
-          "location": "Los Altos Hills, CA",
+          "location": "Los Altos Hills, California",
           "date_started": "Sep 2019",
           "date_ended": "Dec 2019",
           "total_length": "4 Months",
@@ -217,9 +218,9 @@ getExperience() {
         {
           "title": "Founder",
           "sub_title": "ChronoCI",
-          "location": "Bay Area, CA",
+          "location": "San Fransisco Bay Area, California",
           "date_started": "May 2018",
-          "date_ended": "April 2019",
+          "date_ended": "Apr 2019",
           "total_length": "1 Year",
           "img": require("../images/logos/chronoci.jpg"),
           "description": [
@@ -256,7 +257,7 @@ getExperience() {
         {
           "title": "Volunteer",
           "sub_title": "San Fransisco Shakespeare Festival",
-          "location": "Cuptertino, CA",
+          "location": "Cuptertino, California",
           "date_started": "Jul 2018",
           "date_ended": "Sep 2018",
           "total_length": "3 Months",
@@ -271,7 +272,7 @@ getExperience() {
         {
           "title": "Software Engineer Intern",
           "sub_title": "Fireflies.ai",
-          "location": "San Fransisco, CA",
+          "location": "San Fransisco, California",
           "date_started": "Jan 2018",
           "date_ended": "Jul 2018",
           "total_length": "7 Months",
@@ -292,7 +293,7 @@ getExperience() {
         {
           "title": "Founder",
           "sub_title": "PixelML",
-          "location": "Bay Area, CA",
+          "location": "San Fransisco Bay Area, California",
           "date_started": "May 2017",
           "date_ended": "Aug 2017",
           "total_length": "4 Months",
@@ -312,7 +313,7 @@ getExperience() {
         {
           "title": "Founder",
           "sub_title": "ConfidentMindset",
-          "location": "Bay Area, CA",
+          "location": "San Fransisco Bay Area, California",
           "date_started": "Oct 2016",
           "date_ended": "Nov 2016",
           "total_length": "1 Months",
@@ -327,7 +328,7 @@ getExperience() {
         {
           "title": "Programming Instructor",
           "sub_title": "theCoderSchool",
-          "location": "San Mateo, CA",
+          "location": "San Mateo, California",
           "date_started": "Sep 2016",
           "date_ended": "Feb 2018",
           "total_length": "1 Year 6 Months",
@@ -346,7 +347,7 @@ getExperience() {
         {
           "title": "Assistant",
           "sub_title": "Swivl",
-          "location": "San Carlos, CA",
+          "location": "San Carlos, California",
           "date_started": "May 2016",
           "date_ended": "Jul 2016",
           "total_length": "3 Months",
@@ -369,7 +370,7 @@ getExperience() {
     return (
       <div style={{ width: "100%", margin: "0 auto" }}>
               <div style={{width: '100%', height: "35px"}}></div>
-                <div className="card"  style={{width: '45%', minWidth: "350px", margin: "0 auto"}} id="card-content">
+                <div className="card"  style={{width: (window.screen.width > 991 ? "45%" : "100%"), minWidth: "350px", margin: "0 auto"}} id="card-content">
 
                   <div className="card-body">
 

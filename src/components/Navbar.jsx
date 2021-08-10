@@ -277,8 +277,8 @@ class Navbar extends React.Component {
 
     return (
       <div id="navbar" hidden={ this.props.match.url === "/about" }>
-        <div style={{width: '100%', height: "10px"}}></div>
-        <div className="card" style={{width: '45%', minWidth: "300px", margin: "0 auto"}} id="navbar-card">
+        <div style={{width: '100%', height: (window.screen.width > 991 ? "10px" : "0px")}}></div>
+        <div className="card" style={{width: (window.screen.width > 991 ? "45%" : "100%"), minWidth: "320px", margin: "0 auto"}} id="navbar-card">
           <i className="fas fa-redo" alt="Click on icon to refresh background image" style={{ zIndex: 5, position: "absolute", right: 0, padding: "10px", textShadow: "0 0 3px #000", color: "white" }} onClick={ this.refreshImage }></i>
           <div className="card-img-top" style={{ background: background_img, height: "200px", backgroundSize: "cover" }} id="background_img"></div>
           <div className="card-body">
@@ -292,7 +292,7 @@ class Navbar extends React.Component {
               </span>
               <p style={{ color: "#1fd19b" }}
               onMouseEnter={() => this.changeBio(true)}
-              onMouseLeave={() => this.changeBio(false)}
+              onClick={() => this.changeBio(false)}
               > { this.state.bio_expand ? "Expanded..." : "Read more" } </p>
               {this.state.bio_expand &&
                   <FadeIn>
@@ -337,6 +337,7 @@ class Navbar extends React.Component {
                       <div style={{ width: "100%" }}>
                       */}
                         <h2>Career interests</h2>
+                        <p>Note: this list is not complete</p>
                         <br/>
                         <div className="card-deck">
                           <div className="card border-0 navbar-cards mb-3 bg-transparent" style={{ maxWidth: '250px', margin: "0 auto" }}>
@@ -418,8 +419,7 @@ class Navbar extends React.Component {
               <Carousel
                 value={this.state.value}
                 onChange={this.onChange}
-                // slidesPerPage={ ( window.screen.width > 1325 ? ( this.state.is_hovering ? 1 : 2) : ( window.screen.width > 900 ? ( this.state.is_hovering ? 1 : 2 ) : 1 ) )}
-                slidesPerPage={ ( window.screen.width > 1325 ? 2 : ( window.screen.width > 1094 ? 1 : 1 ) )}
+                slidesPerPage={ ( window.screen.width > 1500 ? 2 : ( window.screen.width > 1094 ? 1 : 1 ) )}
                 infinite
                 autoPlay={ 4000 }
                 animationSpeed={1000}
@@ -457,7 +457,7 @@ class Navbar extends React.Component {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h6 className="card-text" style={{ fontWeight: "600" }}>Software Engineering</h6>
-                      <p className="card-text">Full stack development, and mobile app development</p>
+                      <p className="card-text">Full stack and mobile app development</p>
                     </div>
                       <ul className="list-group list-group-flush">
                         <li className="list-group-item"> <img src={require("../images/logos/walmart.jfif")} height={30} width={30} alt="..." /> Walmart </li>

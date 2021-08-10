@@ -24,7 +24,7 @@ class Miscellaneous extends React.Component {
           {
             "title": "Team member",
             "sub_title": "Formula Slug",
-            "location": "Santa Cruz, CA",
+            "location": "Santa Cruz, California",
             "date_started": "Oct 2020",
             "date_ended": "Present",
             "img": require("../images/logos/formulaslug.png"),
@@ -59,7 +59,7 @@ class Miscellaneous extends React.Component {
           {
             "title": "Poker",
             "sub_title": "Personal",
-            "location": "Las Vegas, NV",
+            "location": "Las Vegas, Nevada",
             "date_started": "Dec 2019",
             "date_ended": "Present",
             "img": require("../images/logos/poker.png"),
@@ -80,7 +80,7 @@ class Miscellaneous extends React.Component {
     return (
       <div style={{ width: "100%", margin: "0 auto" }}>
               <div style={{width: '100%', height: "35px"}}></div>
-                <div className="card"  style={{width: '45%', minWidth: "300px", margin: "0 auto"}} id="card-content">
+                <div className="card"  style={{width: (window.screen.width > 991 ? "45%" : "100%"), minWidth: "300px", margin: "0 auto"}} id="card-content">
                   <div className="card-body">
 
                     <Card data={ this.getMiscellaneous() } />

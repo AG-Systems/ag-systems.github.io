@@ -24,7 +24,7 @@ class Education extends React.Component {
           {
             "title": "University of California, Santa Cruz",
             "sub_title": "Bachelor of Science - BS, Robotics Engineering",
-            "location": "Santa Cruz, CA",
+            "location": "Santa Cruz, California",
             "date_started": "Oct 2020",
             "date_ended": "Present",
             "img": require("../images/logos/ucsc_engineering.png"),
@@ -35,8 +35,9 @@ class Education extends React.Component {
               "· Computer Science Engineering 101 - Data structures and Algorithms",
               "· Electrical Computer Engineering 9 - Statics and Mechanics of Materials",
               "· Electrical Computer Engineering 10 - Robot Dynamics",
-              "· Electrical Computer Engineering 101/L - Introduction to Electronic Circuits",
+              "· Electrical Computer Engineering 101/L - Intro to Electronic Circuits",
               "· Electrical Computer Engineering 103/L - Signals and Systems",
+              "· Electrical Computer Engineering 141 - Feedback Controls Systems",
               "· Electrical Computer Engineering 171/L - Analog Electronics",
               "General Education: ",
               "· Feminist Studies 14 - Popular Culture in South Asia",
@@ -49,9 +50,9 @@ class Education extends React.Component {
           {
             "title": "Foothill College",
             "sub_title": "Transfer to 4 year university - BS, Computer Science & Mathematics",
-            "location": "Los Altos, CA",
-            "date_started": "July 2017",
-            "date_ended": "June 2020",
+            "location": "Los Altos, California",
+            "date_started": "Jul 2017",
+            "date_ended": "Jun 2020",
             "total_length": "3 Years",
             "img": require("../images/logos/foothill.png"),
             "description": [
@@ -97,7 +98,7 @@ class Education extends React.Component {
       return (
         <div style={{ width: "100%", margin: "0 auto" }}>
                 <div style={{width: '100%', height: "35px"}}></div>
-                  <div className="card"  style={{width: '45%', minWidth: "300px", margin: "0 auto" }} id="card-content">
+                  <div className="card"  style={{width: (window.screen.width > 991 ? "45%" : "100%"), minWidth: "300px", margin: "0 auto" }} id="card-content">
 
                     <div className="card-body">
 
